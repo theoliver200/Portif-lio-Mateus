@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header-nav.css">
+    <link rel="stylesheet" href="css/nav-mobile.css">
+    <link rel="stylesheet" href="css/section.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="shortcut icon" href="icones/favicon.png" width="100px" type="image/svg">
+    <title>Meu Portfólio WEB</title>
+</head>
+<body>
+    <header> 
+        <nav>
+            <ul>
+                <li><a href="#sobre-mim">sobre mim</a></li>
+                <li><a href="#formacao">formação</a></li>
+                <li><a href="#experiencias">experiências</a></li>
+                <li><a href="#habilidades">habilidades</a></li>
+                <li><a href="#interesses">interesses</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <img class="icone-menu" src="icones/menu-burger.svg" width="32px" height="40px">
+    
+    <div id="menu-mobile" class="menu-mobile display-menu">
+        <img id="menu-exit" class="icone-exit" src="icones/menu-exit.svg" height="32px" width="40px" >
+        <div class="nav-mobile">
+            <ul>
+                <li><a href="#sobre-mim">sobre mim</a></li>
+                <li><a href="#formacao">formação</a></li>
+                <li><a href="#experiencias">experiências</a></li>
+                <li><a href="#habilidades">habilidades</a></li>
+                <li><a href="#interesses">interesses</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <section>
+        <div class="pessoa">
+            <h1>Mateus Santos</h1>
+            <h2>Desenvolvedora Front-End</h2>
+            
+            <div class="contato">
+                <img class="icones-informacoes" src="icones/email.png">
+                <p>theoliver200@outlook.com</p>
+            </div>
+            <div class="contato">
+                <img class="icones-informacoes" src="icones/whatsapp.png">
+                <p>(11) 95902-1405</p>
+            </div>
+            <div class="contato">
+                <img class="icones-informacoes" src="icones/endereco.png">
+                <p>Brasil</p>
+            </div>
+        </div>
+        
+        <div class="avatar"></div>
+        <div class="midias">
+            <a href="https://www.linkedin.com/in/mateus-santos-627592214/" target="_blank"><img src="icones/linkedin.svg"></a>
+            <a href="https://github.com/" target="_blank"><img src="icones/github.svg"></a>
+            <a href="https://www.instagram.com/mateusby/" target="_blank"><img src="icones/instagram.svg"></a>
+        </div>
+        
+    </section>
+
+    <main>
+        <div class="sobre-mim" id="sobre-mim">
+            <img src="imagens/carta.jpg" class="foto-sobre-mim margem-caixas">
+
+            <div class="texto-sobre-mim">
+                <h3 class="titulo">Sobre mim</h3>
+                <p>Olá! sou aluno do Ser+Tech,sou formado em designer de games pela Evoluntime. A tecnologia entrou na minha vida aos 9 anos de idade, quando eu fiz um mini robo de garrafa pet com a ajuda dos meus amigos. Desde então eu venho me aprimorando cada vez mais nessa aréa
+                </p>
+            </div>
+        </div>
+
+        <div id="formacao">
+            <h3 class="titulo">Formação<h3>
+            <p class="background-texto margem-caixas">Ensino Médio Alberto Torres (completo).<br>
+            </p>
+            <p class="background-texto margem-caixas"> Curso Tecnico em digner de game - Evoluntime Osasco/São Paulo.<br>
+            </p>
+            <p class="background-texto margem-caixas"> Participei de um treinamento HTML, CSS, JavaScript.<br>
+            </p>
+            <p class="background-texto margem-caixas">Formações Alura - Certificados <a href="">aqui</a>.<br>
+            </p>
+        </div>
+
+        <div id="experiencias">
+            <h3 class="titulo">Experiências</h3>
+            <p class="background-texto margem-caixas"> A procura de novas experiencias. <br>
+            </p>
+        </div>
+        
+        <div id="habilidades">
+            <h3 class="titulo">Habilidades</h3>
+            <ul>
+                <li class="background-texto margem-caixas"> Eu ja fiz um mini robo de garrafa pet na escola</li>
+                
+            </ul>
+        </div>
+
+        <div id="interesses">
+            <h3 class="titulo">Interesses</h3>
+            <img src="icones/varinha3.jpg" class="icones-interesses" id="interesse-varinha">
+            <img src="icones/camera2.png" class="icones-interesses" id="interesse-camera">
+            <img src="icones/nota.jpg" class="icones-interesses" id="interesse-nota">
+            <img src="icones/skate.webp" class="icones-interesses" id="interesse-skate">
+        </div>
+
+        <div id="caixa-texto-interesses" class="display-informacoes-interesses">
+            <p id="texto-interesse" class="background-texto margem-caixas"></p>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-informacoes">
+            <img src="icones/contato.png" class="icones-informacoes">
+
+            <p class="fale-comigo">Fale comigo através do meu <a href="mailto:theoliver200@outlook.com">e-mail</a> ou <a href="https://www.convertte.com.br/gerador-link-whatsapp/" target="_blank">whatsapp</a>.</p>  
+        </div>
+        
+        <p>Mateus Santos<br>2022</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
